@@ -13,11 +13,11 @@ RUN apk update && apk add --no-cache \
     # php8-pecl-redis \
     php8-phar \
     php8-xml \
-    # php8-xmlreader \
+    php8-xmlreader \
     php8-zip \
     php8-zlib \
     php8-pdo \
-    # php8-xmlwriter \
+    php8-xmlwriter \
     php8-tokenizer \
     php8-session \
     php8-pdo_mysql \
