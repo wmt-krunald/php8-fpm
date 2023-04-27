@@ -19,7 +19,6 @@ RUN apk add --no-cache --virtual .build-deps  \
     bzip2-dev \
     libzip-dev
 
-
 # Add Production Dependencies
 RUN apk add --update --no-cache --virtual \
     php8-mbstring \
